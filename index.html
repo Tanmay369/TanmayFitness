@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img/pic2.jpg);
+            background-size: cover;
+            color: white;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 43%;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            display: inline-block;
+            top: 33px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            width: 45px;
+            filter: invert(100%);
+            margin-left: 24%;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: rgb(38, 5, 70);
+        }
+
+        .container {
+            border: 2px solid rgb(255, 255, 255);
+            margin: 66px 30%;
+            padding: 30px 45px;
+            width: 30%;
+            border-radius: 12px;
+            display: block;
+
+        }
+
+        .container h1 {
+            font-size: 30px;
+            display: block;
+            text-align: center;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 334px;
+            padding: 3px;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-size: 25px;
+            border-radius: 12px;
+        }
+
+        .container .btn {
+            display: block;
+            width: 90%;
+            margin: 12px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/dumbbell-35686.png" alt="">
+            <div>Tanmay Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/index.html" class="active">Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</buton>
+                <button class="btn">Email us</buton>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of delhi now.</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone no.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

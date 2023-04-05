@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About:Programs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img/pexels-anush-gorak-1229356\ \(1\).jpg);
+            background-size: cover;
+            color: white;
+
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .mid {
+
+            display: block;
+            width: 43%;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            display: inline-block;
+            top: 33px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            width: 45px;
+            filter: invert(100%);
+            margin-left: 24%;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: rgb(38, 5, 70);
+        }
+
+        .intro {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 10px;
+            display: block;
+            width: 77%;
+            height: 146px;
+            text-align: center;
+            color: white;
+            margin: 18px 143px;
+            margin-bottom: 54px;
+            padding: 9px 22px;
+            float: left;
+            box-shadow: 0 3px 10px grey;
+
+
+
+        }
+
+        .other {
+
+            display: flex;
+            height: 235px;
+            width: 100%;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .img {
+            margin: 10px;
+            padding: 3px;
+            width: 200px;
+            height: 200px;
+            border: 4px solid grey;
+            box-shadow: 0 3px 10px grey;
+            border-radius: 10px;
+        }
+
+        .img2 {
+            position: relative;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        /* .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+        } */
+
+        .img .img2 img {
+            width: 202px;
+            height: 205px;
+        }
+
+        figcaption b {
+            position: relative;
+            align-self: center;
+            color: white;
+            font-size: 30px;
+            text-decoration: underline;
+            padding-left: 0px;
+
+
+        }
+        figcaption{
+            color: white;
+
+        }
+
+        .y{
+            padding-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/dumbbell-35686.png" alt="">
+            <div>Tanmay Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html" class="active">About us</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us now</buton>
+                <button class="btn">Email us</buton>
+        </div>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h1>Programs We Provide</h1>
+            <p>Each person's fitness goals and needs are so unique, so it's essential to consult with a professional
+                tailored to your specific needs and fitness level.So Tanmay Fitness provides these programs to everyone
+                keeping in mind the needs of everyone so that they can live their in a healthy way.</p>
+        </div>
+        <div class="other">
+            <a href="strenth.html" class="img">
+                <div class="img2">
+                    <img src="img/strength.jpg" alt="strength training programs">
+                    <figcaption><b class="y">Strength</b></figcaption>
+                </div>
+            </a>
+            <a href="cardiovascular.html" class="img">
+                <div class="img2">
+                    <img src="img/cardio.jpg" alt="Cardio - vascular Training Programs">
+                    <figcaption><b>Cardiovascular</b></figcaption>
+                </div>
+            </a>
+            <a href="weightloss.html" class="img">
+                <div class="img2">
+                    <img src="img/weight.jpg" alt="Weight Loss Program">
+                    <figcaption><b class="y">WeightLoss</b></figcaption>
+                </div>
+            </a>
+            <a href="crossfit.html" class="img">
+                <div class="img2">
+                    <img src="img/crossfit.jpg" alt="CrossFit Program">
+                    <figcaption><b class="y">CrossFit</b></figcaption>
+                </div>
+            </a>
+            <a href="yoga.html" class="img">
+                <div class="img2">
+                    <img src="img/yoga.jpg" alt="Yoga and Streching program">
+                    <figcaption><b class="y">Yoga</b></figcaption>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

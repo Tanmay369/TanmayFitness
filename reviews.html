@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness calculater</title>
+    <style>
+         body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img/fit.jpg);
+            background-size: cover;
+            color: white;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 43%;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            display: inline-block;
+            top: 33px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            width: 45px;
+            filter: invert(100%);
+            margin-left: 24%;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: rgb(38, 5, 70);
+        }
+
+        .main{
+            display: flex;
+            flex-direction: column;
+            width: 836px;
+            margin: 0px 420px ;
+            align-items: center;
+        }
+     
+
+        .inspire{
+            width: 1208px;
+            border: 4px solid black;
+            border-radius: 15px;
+            height: 320px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 21px;
+            background-color: white;
+            opacity: 0.7;
+            
+        }
+        .inspire p,.inspire h1{
+            color: black;
+            font-size: 33px;
+        }
+
+        .inspire h1{
+            color: black;
+            text-decoration: underline;
+            font-size: 45px;
+        }
+
+        .review{
+            margin-top: 60px ;
+
+        }
+
+        .comment{
+            width: 600px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .share{
+            width: 100px;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/dumbbell-35686.png" alt="">
+            <div>Tanmay Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/index.html" >Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="reviews.html" class="active">Reviews</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</buton>
+                <button class="btn">Email us</buton>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="inspire">
+            <h1><b>Your Reviews Matter</b></h1>
+            <p>"Your feedback and input are crucial to helping us provide the best possible fitness programs and services. We encourage you to share your progress, offer suggestions, and help us create a community of individuals commited to reaching their fitness goals. Together, we can acheive greatness and inspire others to lead healthy, active lifestyles."</p>
+        </div>
+
+        <div class="review" id="comment-box">
+            <form action="/form/submit" method="post">
+                <textarea class="comment">Share your review here.</textarea>
+                <br>
+                <input type="submit" name="submit" value="Share" class="share">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
